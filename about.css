@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #ff0066, #010101 13%);
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    height: 70px;
+}
+
+.jecrc {
+    position: relative;
+    font-size: 35px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.jecrc a {
+    color: black;
+}
+
+
+.jecrc a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.jecrc a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+} 
+
+.header ul {
+    display: flex;
+    position: absolute;
+    list-style: none;
+    right: 30px;
+}
+
+.header ul li {
+    margin-top: 22px;
+    float: right;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.header ul li a {
+    color: black;
+    font-weight: 500;
+    /* background-color: #500121; */
+    padding: 5px 10px 5px 10px;
+}
+
+.header ul li a:hover {
+    background-color: #951246;
+    border-radius: 8px;
+}
+
+.bodypart1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.bodypart1 p{
+    color: #d6a2c3;
+}
+
+.bodypart1 .dabba1 {
+    width: 50vw;
+    /* background-color: aqua; */
+    height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.dabba1 p {
+    font-size: 35px;
+    margin-left: 140px;
+    margin-right: 80px;
+}
+
+.bodypart1 .dabba2 {
+    width: 50vw;
+    /* background-color: rgb(255, 166, 0); */
+    height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.dabba2 p {
+    font-size: 19px;
+    margin-right: 140px;
+}
+
+.bodypart2 img {
+    height: 190px;
+    width: 190px;
+}
+
+.bodypart2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    background: linear-gradient(to bottom, #ff0066, #060606 19%);
+    width: 80vw;
+    height: 47vh;
+    border-radius: 25px;
+}
+
+.mot {
+    text-align: center;
+    margin: 15px auto;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.section div p a {
+    color: #d6a2c3;
+}
+
+.section div p a:hover {
+    text-decoration: underline;
+}
+
+.section div{
+    margin: auto 18px;
+    color: #d6a2c3;
+}
+
+.section p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.section div span{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.section p1{
+    position: relative;
+}
+
+.section p2{
+    position: relative;
+}
+
+.section p3{
+    position: relative;
+}
+
+.section p4{
+    position: relative;
+}
+
+.dp1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 500px;
+    background-color: aqua;
+    visibility: none;
+    font-size: 0px;
+}
+
+.p1:hover .dp1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 139px; /*90*/
+    left: 393.5px; /*40*/
+    background: linear-gradient(to bottom, #060606, #ff0066 100%);
+    visibility: none;
+    opacity: 98%;
+    visibility: visible;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;
+}
+
+.dp2 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 500px;
+    font-size: 0px;
+    background-color: aqua;
+    visibility: none;
+}
+
+.p2:hover .dp2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 139px;
+    left: 619px;
+    background: linear-gradient(to bottom, #ff0066, #060606 100%);
+    visibility: none;
+    opacity: 95%;
+    visibility: visible;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;
+}
+
+.dp3 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 500px;
+    font-size: 0px;
+    background-color: aqua;
+    visibility: none;
+}
+
+.p3:hover .dp3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 139px;
+    left: 845px;
+    background: linear-gradient(to bottom, #060606, #ff0066 100%);
+    visibility: none;
+    opacity: 95%;
+    visibility: visible;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;
+}
+
+.dp4 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 500px;
+    font-size: 0px;
+    background-color: aqua;
+    visibility: none;
+}
+
+.p4:hover .dp4 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 139px;
+    left: 1030px;
+    background: linear-gradient(to bottom, #ff0066, #060606 100%);
+    visibility: none;
+    opacity: 95%;
+    visibility: visible;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;
+}
